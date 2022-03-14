@@ -1,15 +1,16 @@
 package Lab6;
 
 public class BasicWeek {
-	public static void main(String args[]) {
-		String day_1 = "Monday";
-		String day_2 = "Tuesday";
-		String day_3 = "Wednesday";
-		String day_4 = "Thursday";
-		String day_5 = "Friday";
-		String day_6 = "Saturday";
-		String day_7 = "Sunday";
-		System.out.println(day_1 + " " + day_2 + " " + day_3 + " " +
-		day_4 + " " + day_5 + " " + day_6 + " " + day_7);
-	}
+	 private String day_1 = "Monday";
+	    private String day_2 = "Tuesday";
+	    private String day_3 = "Wednesday";
+	    private String day_4 = "Thursday";
+	    private String day_5 = "Friday";
+	    private String day_6 = "Saturday";
+	    private String day_7 = "Sunday";
+
+	    public void days() {
+	        System.out.println("The basic days of the week are: " + day_1+" "+day_2+" "+day_3+" "+day_4+" "+day_5+" "+day_6+" "+day_7);
+
+	    }
 }

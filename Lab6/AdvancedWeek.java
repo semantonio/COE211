@@ -1,30 +1,30 @@
 package Lab6;
 
 public class AdvancedWeek {
-	public static void main(String[] args) {
-	String day_1 = "Monday";
-	int day_1_index = 1;
-	String day_2 = "Tuesday";
-	int day_2_index = 2;
-	String day_3 = "Wednesday";
-	int day_3_index = 3;
-	String day_4 = "Thursday";
-	int day_4_index = 4;
-	String day_5 = "Friday";
-	int day_5_index = 5;
-	String day_6 = "Saturday";
-	int day_6_index = 6;
-	String day_7 = "Sunday";
-	int day_7_index = 7;
-	System.out.println(
-	day_1_index + ": " + day_1 + ",\n" +
-	day_2_index + ": " + day_2 + ",\n" +
-	day_3_index + ": " + day_3 + ",\n" +
-	day_4_index + ": " + day_4 + ",\n" +
-	day_5_index + ": " + day_5 + ",\n" +
-	day_6_index + ": " + day_6 + ",\n" +
-	day_7_index + ": " + day_7 + ".");
 	
-			
+	private String day_1 = "Monday";
+	
+	private String day_2 = "Tuesday";
+	
+	private String day_3 = "Wednesday";
+	
+	private String day_4 = "Thursday";
+	
+	private String day_5 = "Friday";
+	
+	private String day_6 = "Saturday";
+	
+	private String day_7 = "Sunday";
+	int index=1;
+	public void advanced() {
+	System.out.println( day_1+ ": " + index++ + ",\n" +
+	day_2 + ": " + index++ + ",\n" +
+	day_3 + ": " + index++ + ",\n" +
+	day_4 + ": " + index++ + ",\n" +
+	day_5 + ": " + index++ + ",\n" +
+	day_6+ ": " + index++ + ",\n" +
+	day_7 + ": " + index++ + ".");
+	
+	}
 }
-}
+
